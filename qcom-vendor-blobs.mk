@@ -28,8 +28,8 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/proprietary/system/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 
-# Prebuilt libraries for CAF Chromium plug-ins
-PRODUCT_COPY_FILES += \
+# Prebuilt libraries for CAF Chromium plug-ins - - - I WILL NEED THESE FOR AOSP
+#PRODUCT_COPY_FILES += \
     vendor/qcom/proprietary/system/lib/libcneapiclient.so:/system/lib/libcneapiclient.so \
     vendor/qcom/proprietary/system/lib/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
     vendor/qcom/proprietary/system/lib/libdiag.so:/system/lib/libdiag.so \
